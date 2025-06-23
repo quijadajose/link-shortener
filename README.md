@@ -42,4 +42,4 @@ En este proyecto, las cookies se configuran como **First-Party Cookies** (cookie
 
 ## Diagrama de la Base de Datos
 
-![Diagrama de la base de datos](https://github.com/user-attachments/assets/38361995-97aa-4bb8-b056-341535b7d34c)
+![Diagrama de la base de datos](https://github.com/user-attachments/assets/54d8c083-8a63-4c9e-8154-657112d3b1a6)
