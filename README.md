@@ -1,6 +1,10 @@
 # Link Shortener
 
-Este proyecto es un acortador de enlaces que permite a los usuarios gestionar sus URLs de manera sencilla y segura, utilizando autenticación OAuth de GitHub y protección adicional mediante HMAC y cookies.
+Este proyecto es un acortador de enlaces que permite a los usuarios gestionar sus URLs de manera sencilla y segura, utilizando autenticación OAuth de GitHub y protección adicional mediante HMAC y cookies seguras.
+
+## 🎥 Demo
+
+https://link-shortener.quijadajosed.workers.dev/
 
 ## Endpoints
 
@@ -29,14 +33,14 @@ Este proyecto es un acortador de enlaces que permite a los usuarios gestionar su
 
 ## Autenticación y Seguridad
 
-Este proyecto utiliza el login de GitHub mediante OAuth para autenticar a los usuarios. Para asegurar la integridad y autenticidad de la sesión, utiliza HMAC (Hash-based Message Authentication Code) junto con cookies.
+Este proyecto utiliza el login de GitHub mediante OAuth para autenticar a los usuarios. Para asegurar la integridad y autenticidad de la sesión, utiliza HMAC (Hash-based Message Authentication Code) y cookies seguras.
 
 - **OAuth de GitHub**: Permite la autenticación segura sin almacenar contraseñas.
 - **HMAC con cookies**: Se utiliza para firmar y verificar la validez de las cookies de sesión, evitando manipulaciones y accesos no autorizados.
 
 ### Diferencia con cookies de terceros
 
-En este proyecto, las cookies se configuran como **First-Party Cookies** (cookies propias), es decir, son gestionadas directamente por el backend del acortador. Esto contrasta con las **Third-Party Cookies** (cookies de terceros), que son generadas por dominios distintos al del sitio web principal y suelen estar sujetas a mayores restricciones de seguridad en los navegadores modernos. Al usar cookies propias y HMAC, se mejora la seguridad y compatibilidad del sistema de autenticación.
+En este proyecto, las cookies se configuran como **First-Party Cookies** (cookies propias), es decir, son gestionadas directamente por el backend del acortador. Esto contrasta con las **Third-Party Cookies** (cookies de terceros), que son gestionadas por dominios externos.
 
 ---
 
