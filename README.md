@@ -3,6 +3,7 @@
 Este proyecto es un acortador de enlaces que permite a los usuarios gestionar sus URLs de manera sencilla y segura, utilizando autenticación OAuth de GitHub y protección adicional mediante HMAC y cookies seguras.
 
 ## 🎥 Demo
+https://github.com/user-attachments/assets/bcfe1044-08f4-464b-a5eb-4715a8e4a12b
 
 https://link-shortener.quijadajosed.workers.dev/
 
@@ -42,8 +43,7 @@ Este proyecto utiliza el login de GitHub mediante OAuth para autenticar a los us
 
 En este proyecto, las cookies se configuran como **First-Party Cookies** (cookies propias), es decir, son gestionadas directamente por el backend del acortador. Esto contrasta con las **Third-Party Cookies** (cookies de terceros), que son gestionadas por dominios externos.
 
----
 
 ## Diagrama de la Base de Datos
 
-![Diagrama de la base de datos](https://github.com/user-attachments/assets/54d8c083-8a63-4c9e-8154-657112d3b1a6)
+![Diagrama de la base de datos](https://github.com/user-attachments/assets/458c58e4-70c8-42ad-9f5f-60461c521e12)
